@@ -1,0 +1,35 @@
+body {
+	width: 60%;
+	max-width: 500px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+a {
+	margin-bottom: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+	text-decoration: none;
+	padding: 3px;
+}
+
+section {
+	margin-top: 15px;
+	border: 2px solid black;
+	border-radius: 15px;
+	background-color: #fafafa;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
