@@ -18,6 +18,12 @@ body {
 	background-size: cover; */
 }
 
+.projectList {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 1rem;
+}
+
 h1 {
 	text-align: center;
 }
@@ -26,12 +32,16 @@ h2 {
 	text-align: center;
 }
 
+h3 {
+	text-align: center;
+}
+
 a {
-	margin-bottom: 10px;
+	margin: auto;
 	border: 1px solid black;
 	border-radius: 10px;
 	text-decoration: none;
-	padding: 3px;
+	padding: 5px;
 }
 
 section {
