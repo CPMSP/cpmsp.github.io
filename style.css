@@ -33,12 +33,13 @@ body {
 	margin: auto;
 	background-color: grey;
 	align-items: center;
-	padding: 2rem;
+	padding: 1rem;
 	border: 1px solid black;
 }
 
 .main-nav h1 {
 	flex: 1 1 100px;
+	color: white;
 }
 
 .main-nav a {
@@ -48,12 +49,24 @@ body {
 	text-decoration: none;
 }
 
+.gh-logo {
+	background: url(assets/GitHub-Mark-32px.png) no-repeat 6px center;
+	width: 10px;
+	height: 10px;
+	display: block;
+}
+
 h1 {
 	font-size: x-large;
 }
 
 h3 {
 	font-size: large;
+}
+
+main {
+	width: 80%;
+	margin: auto;
 }
 
 main p {
