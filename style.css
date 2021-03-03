@@ -1,7 +1,3 @@
-body {
-	margin: 0;
-}
-
 .hero {
 	width: 100%;
 	height: 100vh;
@@ -17,51 +13,49 @@ body {
 	background-attachment: fixed;
 }
 
-.hero h1 {
+.heroTag {
 	font-size: 5rem;
 	margin: 0 auto;
 	color: white;
 }
 
-.hero h3 {
+.heroCaption {
+	margin-top: 1rem;
 	color: white;
 }
 
-.main-nav {
+.mainNav {
 	top: 0;
-	display: flex;
-	margin: auto;
+	width: 100%;
 	background-color: grey;
-	align-items: center;
-	padding: 1rem;
-	border: 1px solid black;
 }
 
-.main-nav h1 {
-	flex: 1 1 100px;
-	color: white;
-}
-
-.main-nav a {
+.mainNav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 	display: flex;
-	align-items: center;
 	padding: 1rem;
-	text-decoration: none;
 }
 
-.gh-logo {
-	background: url(assets/GitHub-Mark-32px.png) no-repeat 6px center;
-	width: 10px;
-	height: 10px;
-	display: block;
+.mainNav li {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-h1 {
+.ghLogos {
+	height: 20px;
+}
+
+.mainNav.fixed {
+	position: sticky;
+	box-shadow: 5px 5px 19px 0px rgba(0, 0, 0, 0.5);
+}
+
+.navTitle {
 	font-size: x-large;
-}
-
-h3 {
-	font-size: large;
 }
 
 main {
