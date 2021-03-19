@@ -86,11 +86,26 @@ main {
 	margin: auto;
 }
 
+main h4 {
+	width: 40%;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 3rem auto 3rem auto;
+	text-align: center;
+	padding: 10px;
+	background-color: #fafafa;
+	font-size: large;
+}
+
 main p {
 	width: 80%;
 	border: 1px solid black;
 	border-radius: 5px;
-	margin: 2rem auto;
+	margin: 1rem auto;
 	padding: 10px;
 	background-color: #fafafa;
+}
+
+hr {
+	margin: 3rem auto;
 }
