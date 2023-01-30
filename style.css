@@ -1,115 +1,116 @@
 body {
-	background-color: #e1e1e1;
+  background-color: #e1e1e1;
 }
 
 .hero {
-	width: 100%;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url('https://images.unsplash.com/photo-1508495761350-6a8bf2a2128a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1508495761350-6a8bf2a2128a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .heroTag {
-	font-size: 3rem;
-	margin: 0 auto;
-	color: white;
+  font-size: 3rem;
+  margin: 0 auto;
+  color: white;
 }
 
 .heroCaption {
-	font-size: 1.5rem;
-	margin-top: 1rem;
-	color: white;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: white;
 }
 
 .mainNav {
-	top: 0;
-	width: 100%;
-	background: #2980b9; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to right,
-		#2c3e50,
-		#2980b9
-	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to right,
-		#2c3e50,
-		#2980b9
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	display: flex;
+  top: 0;
+  width: 100%;
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c3e50,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
 }
 
 .mainNav ul {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	list-style: none;
-	display: flex;
-	justify-content: flex-end;
-	padding: 1rem;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
 }
 
 .mainNav .navLinks {
-	margin-right: 1rem;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .navLinks a {
-	text-decoration: none;
-	color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .mainNav .navTitle {
-	flex: 2;
-	display: flex;
-	align-items: center;
-	color: white;
+  flex: 2;
+  display: flex;
+  align-items: center;
+  color: white;
 }
 
 .mainNav.fixed {
-	position: sticky;
-	box-shadow: 5px 5px 19px 0px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  box-shadow: 5px 5px 19px 0px rgba(0, 0, 0, 0.5);
 }
 
 .navTitle {
-	font-size: x-large;
+  font-size: x-large;
 }
 
 main {
-	width: 80%;
-	margin: auto;
+  width: 80%;
+  margin: auto;
 }
 
 main h4 {
-	width: 40%;
-	border: 1px solid black;
-	border-radius: 5px;
-	margin: 3rem auto 3rem auto;
-	text-align: center;
-	padding: 10px;
-	background-color: #fafafa;
-	font-size: large;
+  width: 40%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 3rem auto 3rem auto;
+  text-align: center;
+  padding: 10px;
+  background-color: #fafafa;
+  font-size: large;
 }
 
 main p {
-	width: 80%;
-	border: 1px solid black;
-	border-radius: 5px;
-	margin: 1rem auto;
-	padding: 10px;
-	background-color: #fafafa;
-	line-height: 2rem;
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 2px #aaaaaa;
+  margin: 1rem auto;
+  padding: 10px;
+  background-color: #fafafa;
+  line-height: 2rem;
 }
 
 hr {
-	margin: 3rem auto;
+  margin: 3rem auto;
 }
