@@ -93,6 +93,7 @@ main h4 {
   width: 40%;
   border: 1px solid black;
   border-radius: 5px;
+  box-shadow: 5px 5px 2px #aaaaaa;
   margin: 3rem auto 3rem auto;
   text-align: center;
   padding: 10px;
