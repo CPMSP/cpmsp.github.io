@@ -122,8 +122,5 @@ hr {
 }
 
 .resumeLink:hover {
-  /* font-size: 1.25rem; */
   background-color: #F2BB05;
-  transition: width 0.5s;
-  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
