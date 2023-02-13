@@ -91,24 +91,24 @@ main {
 
 main h4 {
   width: 40%;
-  border: 1px solid black;
-  border-radius: 5px;
+  border: 2px solid #222222;
+  border-radius: 1rem;
   box-shadow: 5px 5px 2px #aaaaaa;
   margin: 3rem auto 3rem auto;
   text-align: center;
   padding: 10px;
-  background-color: #fafafa;
-  font-size: large;
+  background-color: #eeeeee;
+  font-size: 1.5rem;
 }
 
 main p {
   width: 80%;
-  border: 1px solid black;
-  border-radius: 5px;
+  border: 2px solid #222222;
+  border-radius: 1rem;
   box-shadow: 5px 5px 2px #aaaaaa;
   margin: 1rem auto;
-  padding: 10px;
-  background-color: #fafafa;
+  padding: 2rem;
+  background-color: #eeeeee;
   line-height: 2rem;
 }
 
